@@ -15,15 +15,15 @@ const DefaultLayout = (props: LayoutProps) => {
   return (
     <div className="flex flex-col bg-gradient-to-b from-[#2B2B2B] to-[#1F1F1F]">
       <Head>
-        <title>Opti | AI Powered Problem Solving and Goal Setting</title>
+        <title>Auto Opti | AI automated complex problem solving and goal achievement</title>
         <meta name="description" content={description} />
         <meta
           property="og:title"
-          content="Opti: AI powered problem solving and goal setting in your browser."
+          content="Auto Opti | AI automated complex problem solving and goal achievement"
         />
         <meta
           property="og:description"
-          content="AI powered problem solving and goal setting in your browser."
+          content="Auto Opti | AI automated complex problem solving and goal achievement"
         />
         <meta property="og:url" content="https://autoopti.getfractional.co/" />
         <meta property="og:image:width" content="1280" />
