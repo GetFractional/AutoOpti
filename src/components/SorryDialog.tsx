@@ -13,7 +13,7 @@ export const SorryDialog = ({ show, close }: SorryDialogProps) => {
     <Dialog header={`${t("sorry")} 😭`} isShown={show} close={close}>
       <Trans i18nKey="sorry-tips" ns="chat">
         <p>
-          Due to costs, we&apos;ve had to momentarily disable web search 🌐
+          Due to costs, we had to momentarily disable web search
           <br />
           <p>But you can still use it on your site.</p>
           <br />
@@ -23,7 +23,7 @@ export const SorryDialog = ({ show, close }: SorryDialogProps) => {
             target="_blank"
             rel="noreferrer"
           >
-            More Detials
+            More Details
           </a>
         </p>
       </Trans>
