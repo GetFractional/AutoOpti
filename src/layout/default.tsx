@@ -11,28 +11,24 @@ interface LayoutProps {
 
 const DefaultLayout = (props: LayoutProps) => {
   const description =
-    "Assemble, configure, and deploy autonomous AI Agents in your browser.";
+    "Assemble, configure, and deploy Opti in your browser.";
   return (
     <div className="flex flex-col bg-gradient-to-b from-[#2B2B2B] to-[#1F1F1F]">
       <Head>
-        <title>AutoGPT Next Web</title>
+        <title>Opti | AI Powered Problem Solving and Goal Setting</title>
         <meta name="description" content={description} />
         <meta
           property="og:title"
-          content="AutoGPT Next Web: Autonomous AI in your browser 🤖"
+          content="Opti: AI powered problem solving and goal setting in your browser."
         />
         <meta
           property="og:description"
-          content="Assemble, configure, and deploy autonomous AI Agents in your browser."
+          content="AI powered problem solving and goal setting in your browser."
         />
-        <meta property="og:url" content="https://auto-agentgpt.com/" />
+        <meta property="og:url" content="https://autoopti.getfractional.co/" />
         <meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="640" />
         <meta property="og:type" content="website" />
-        <meta
-          name="google-site-verification"
-          content="sG4QDkC8g2oxKSopgJdIe2hQ_SaJDaEaBjwCXZNkNWA"
-        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <DottedGridBackground

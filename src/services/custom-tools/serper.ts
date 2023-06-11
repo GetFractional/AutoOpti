@@ -28,7 +28,7 @@ export class Serper extends Tool {
     this.goal = goal;
     if (!this.key) {
       throw new Error(
-        "Serper API key not set. You can set it as SERPER_API_KEY in your .env file, or pass it to Serper."
+        "Serper API key not set. You can set it as SERP_API_KEY in your .env file, or pass it to Serper."
       );
     }
   }

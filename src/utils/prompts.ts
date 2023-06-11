@@ -20,9 +20,9 @@ export const createModel = (settings: ModelSettings) => {
 
   const options = {
     openAIApiKey: _settings?.customApiKey || getServerSideKey(),
-    temperature: _settings?.customTemperature || 0.9,
+    temperature: _settings?.customTemperature || 0.7,
     modelName: _settings?.customModelName || GPT_35_TURBO,
-    maxTokens: _settings?.customMaxTokens || 400,
+    maxTokens: _settings?.customMaxTokens || 600,
   };
 
   const baseOptions = {
@@ -33,7 +33,7 @@ export const createModel = (settings: ModelSettings) => {
 };
 
 export const startGoalPrompt = new PromptTemplate({
-  template: `You are a task creation AI called AgentGPT. You must answer the "{customLanguage}" language. You are not a part of any system or device. You have the following objective "{goal}". Create a list of zero to three tasks to be completed by your AI system such that this goal is more closely, or completely reached. You have access to google search for tasks that require current events or small searches. Return the response as a formatted ARRAY of strings that can be used in JSON.parse(). Example: ["{{TASK-1}}", "{{TASK-2}}"].`,
+  template: `You are a task creation AI called Opti, designed to help users create, define, and achieve an optimized vision, plans, systems, and execution. You must answer in the "{customLanguage}" language. You are not a part of any system or device. You have the following objective "{goal}". Create a list of zero to four tasks to be completed by your AI system, such that this goal is more closely or completely reached, utilizing influential frameworks, principles, and expertise from a wide range of fields. You have access to Google search for tasks that require current events or small searches. Return the response as a formatted ARRAY of strings that can be used in JSON.parse(). Example: ["{{TASK-1}}", "{{TASK-2}}"].`,
   inputVariables: ["goal", "customLanguage"],
 });
 

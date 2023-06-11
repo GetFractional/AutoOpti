@@ -6,7 +6,7 @@
 .background {
   background-image: radial-gradient(
     circle,
-    rgba(58, 58, 58, 0.75) 2px,
+    rgba(250,250,250) 2px,
     transparent 0px
   );
   background-size: 30px 30px;
@@ -54,7 +54,7 @@ pre {
 
 table {
   @apply w-full rounded-lg text-white;
-  background-color: #0d1117;
+  background-color: #e7f8ff;
 }
 
 th,
