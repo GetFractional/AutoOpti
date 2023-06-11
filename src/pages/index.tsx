@@ -178,7 +178,7 @@ const Home: NextPage = () => {
 
   const proTitle = (
     <>
-      AutoGPT Next Web<span className="ml-1 text-amber-500/90">Pro</span>
+      Auto Opti<span className="ml-1 text-amber-500/90">Pro</span>
     </>
   );
 
@@ -275,7 +275,7 @@ const Home: NextPage = () => {
               <ChatWindow
                 className="sm:mt-4"
                 messages={messages}
-                title={session?.user.subscriptionId ? proTitle : "AutoGPT"}
+                title={session?.user.subscriptionId ? proTitle : "Auto Opti"}
                 onSave={
                   shouldShowSave
                     ? (format) => {
@@ -309,7 +309,7 @@ const Home: NextPage = () => {
                   disabled={agent != null}
                   onChange={(e) => setName(e.target.value)}
                   onKeyDown={(e) => handleKeyPress(e)}
-                  placeholder="AutoGPT"
+                  placeholder="Auto Opti"
                   type="text"
                 />
               </Expand>

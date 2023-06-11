@@ -1,7 +1,7 @@
 {
-  "welcome-to-AutoGPT-Next-Web": "Welcome To AutoGPT-Next-Web",
-  "usage": "allows you to configure and deploy Autonomous AI agents. Name your custom AI and have it embark on any goal imaginable. It will attempt to reach the goal by thinking of tasks to do, executing them, and learning from the results",
-  "working-on": "This platform is currently in beta, we are currently working on:",
+  "welcome-to-AutoGPT-Next-Web": "Welcome to Auto Opti",
+  "usage": "allows you to automate complex problem solving and goal achievement. Name and then describe your goal in detail. It will attempt to reach the goal by thinking of tasks to do, executing them, and learning from the results",
+  "working-on": "This platform is currently in beta. We are currently working on:",
   "long-term-memory": "Long term memory",
   "web-browsing": "Web browsing",
   "interaction-with-websites-and-people": "Interaction with websites and people",

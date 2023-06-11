@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1 align="center">AutoGPT-Next-Web</h1>
+<h1 align="center">Auto Optib</h1>
 
 English / [简体中文](https://github.com/Dogtiti/AutoGPT-Next-Web/blob/main/docs/README_CN.md) / [日本語](https://github.com/Dogtiti/AutoGPT-Next-Web/blob/main/docs/README_JA.md)
 

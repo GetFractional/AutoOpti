@@ -21,7 +21,7 @@ export default function HelpDialog({
     >
       <div className="text-md relative flex-auto p-2 leading-relaxed">
         <p>
-          <strong>AutoGPT</strong> {t("usage")} 🚀
+          <strong>Auto Opti</strong> {t("usage")} 🚀
         </p>
         <div>
           <br />
